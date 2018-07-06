@@ -6,8 +6,8 @@
         <el-button type="danger" v-on:click.native="handlelogOut">退出登录</el-button>
       </li>
       <li>创建时间：{{ users.createdAt }}</li>
-      <router-link to="/file_upload"><el-button type="info">文件上传</el-button></router-link>
     </ul>
+    <router-link to="/file_upload"><el-button type="info">Excel文件上传</el-button></router-link>
   </div>
 </template>
 
